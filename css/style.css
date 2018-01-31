@@ -2,6 +2,10 @@
 font-family: "protos";
 src: url("../fonts/Protos.otf");
 }
+@font-face {
+font-family: "xirod";
+src: url("../fonts/xirod.ttf");
+}
 body a{
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -12,10 +16,11 @@ body a{
 html, body{
     font-size: 100%;
 	font-family: 'Roboto Condensed', sans-serif;
+
 }
-body{
-	background:#FFFFFF;
+body{ z-index:1;
 }
+.underline{text-decoration:none; border-bottom:1px solid cyan;      }
 .banner{
 	background: url(../images/1.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -44,16 +49,13 @@ body{
 	margin:0;
 }
 .agileits-logo h1 a{
-    font-size: 1.6em;
+    font-size: 1.7em;
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
     font-weight:500;
     font-family: 'protos';
     letter-spacing: 6px;
-}
-.agileits-logo h1 a img{
-    width: 10%;
 }
 /*-- social-icons --*/
 .agileinfo-social-grids{
@@ -198,12 +200,13 @@ body{
 /*-- //w3layouts-banner-info --*/
 /*-- introduction --*/
 .introduction,.about,.gallery,.team-dot,.news,.contact{
-	padding:4em 0;
+	padding:8em 0;
 }
+
 .w3l-heading h3{
     text-align: center;
-    color: #000000;
-    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-family: 'xirod';
     font-size: 2em;
     font-weight: 700;
     text-transform: uppercase;
@@ -220,7 +223,7 @@ body{
     margin: 4em 0 0 0;
 }
 .introduction-info p{
-	color: #999999;
+	color: #f2f2f2;
     font-size: .9em;
     margin: 0 auto;
     line-height: 1.8em;
@@ -833,9 +836,6 @@ footer p a:hover{
 	}
 }
 @media(max-width:991px){
-	.agileits-logo h1 a img {
-		width: 8%;
-	}
 	.navbar-header {
 		float: none;
 		text-align: center;
@@ -1015,9 +1015,6 @@ footer p a:hover{
 	.agileits-logo h1 a {
 		letter-spacing: 1px;
 	}
-	.agileits-logo h1 a img {
-		width: 10%;
-	}
 	.wthree-news-left{
 		width:20%;
 	}
@@ -1033,7 +1030,7 @@ footer p a:hover{
 }
 @media(max-width:414px){
 	.agileits-logo h1 a {
-		font-size: .8em;
+		font-size: 1em;
 	}
 	.agileits-logo h1 a img {
 		width: 13%;

@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
+<link href="css/particle.css" rel="stylesheet">
 <!-- font -->
 <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
@@ -52,8 +53,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <![endif]-->
 </head>
 <body>
+	<div id="particles-js"></div>
 	<!-- banner -->
-	<div class="banner jarallax">
+	<div class="banner jarallax" style="z-index:99;">
 		<div class="agileinfo-dot">
 			<div class="header" >
 				<div class="container" style="margin-left:4%;width:96%">
@@ -68,11 +70,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</button>
 							<div class="agileits-logo">
 								<h1><a href="index.html">
-									 AAKSHANK <small style="color:#fff">2k18</small> 
+									 <span class="underline">AAKSHANK </span>
+									 <small style="color:#fff">2k18</small> 
 									</a>
 									<h3 style="margin:0; color:#fff">IET DAVV's Annual Cultural Fest</h3>
 								</h1>
-
 							</div>
 						</div>
 
@@ -96,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3layouts-banner-info">
 				<div class="container">
 					<div class="w3ls-text">
-						<img src="images/log.png">
+						<img src="images/log.png" class="animated" id='main-logo' style="animation-delay:0.3s;animation-duration:1.5s ">
 					</div>
 					<div class="w3-arrow bounce animated">
 						<a href="#indro" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -107,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //banner -->
 	<!-- introduction -->
-	<div class="introduction" id="indro">
+	<div class="introduction jarallax" id="indro">
 		<div class="container">
 			<div class="w3l-heading">
 				<h3>Introduction</h3>
@@ -744,6 +746,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/responsiveslides.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -755,7 +759,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				easingType: 'linear' 
 				};
 			*/
-								
+			$(window).on("load", function() {
+				$('#main-logo').addClass('zoomIn');
+			});					
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
