@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
+<link href="css/particle.css" rel="stylesheet">
 <!-- font -->
 <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
@@ -52,10 +53,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <![endif]-->
 </head>
 <body>
+	<div style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:100;" class="loader"><br><br>
+		<div class="spinner">
+		  <div class="rect1"></div>
+		  <div class="rect2"></div>
+		  <div class="rect3"></div>
+		  <div class="rect4"></div>
+		  <div class="rect5"></div>
+		</div>
+		<br>
+		<center><h2 style="color:white;font-family:'xirod'">LOADING .....</h2></center>
+	</div>
+
+	<div id="particles-js"></div>
 	<!-- banner -->
-	<div class="banner jarallax">
+	<div class="banner jarallax" style="z-index:99;height:100%">
 		<div class="agileinfo-dot">
-			<div class="header" >
+			<div class="header">
 				<div class="container" style="margin-left:4%;width:96%">
 					<nav class="navbar navbar-default">
 						<!-- Brand and toggle get grouped for better mobile display -->
@@ -68,11 +82,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</button>
 							<div class="agileits-logo">
 								<h1><a href="index.html">
-									 AAKSHANK <small style="color:#fff">2k18</small> 
+									 <span class="underline">AAKSHANK </span>
+									 <small style="color:#fff">2k18</small> 
 									</a>
-									<h3 style="margin:0; color:#fff">IET DAVV's Annual Cultural Fest</h3>
+									<h3>IET DAVV's Annual Cultural Fest</h3>
 								</h1>
-
 							</div>
 						</div>
 
@@ -96,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3layouts-banner-info">
 				<div class="container">
 					<div class="w3ls-text">
-						<img src="images/log.png">
+						<img src="images/log.png" class="animated" id='main-logo' style="">
 					</div>
 					<div class="w3-arrow bounce animated">
 						<a href="#indro" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -107,7 +121,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //banner -->
 	<!-- introduction -->
-	<div class="introduction" id="indro">
+	<div class="introduction jarallax" id="indro">
 		<div class="container">
 			<div class="w3l-heading">
 				<h3>Introduction</h3>
@@ -121,36 +135,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //introduction -->
 	<!-- about -->
 	<div class="about" id="about">
-	 <div class="animated bounce">
 		<div class="container">
 			<div class="w3l-heading about-heading">
-				<h3>Our Sponsors</h3>
+				<h3>About Us</h3>
 				<div class="w3ls-border about-border"> </div>
 			</div>
 			<div class="agileits-about-grids">
-			  <div class="aboutus">
 				<div class="about-grids">
 					<div class="col-md-6 about-grid">
 						<div class="col-xs-3 about-grid-left">
-							<div class="logo" aria-hidden="true" >
-								<img src="images/mm.jpg" height="70" width="70">
-							</div>
+							<span class="glyphicon glyphicon-asterisk effect-1" aria-hidden="true"></span>
 						</div>
 						<div class="col-xs-9 about-grid-right">
-							<h4>Masala medely</h4>
-							<p>A great cafe to hangout at Bhawar kua</p>
+							<h4>Cum soluta nobis est</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente delectus 
+							reiciendis maiores alias consequatur aut</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="col-md-6 about-grid">
 						<div class="col-xs-3 about-grid-left">
-                             <div class="logo" aria-hidden="true" >
-								<img src="images/cm.jpg" height="70" width="70">
-							 </div>
+							<span class="glyphicon glyphicon-road effect-1" aria-hidden="true"></span>
 						</div>
 						<div class="col-xs-9 about-grid-right">
-							<h4>Code mantra</h4>
-							<p>An overall solution for every programming coachings and tutorials</p>
+							<h4>Soluta nobis est cum</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente delectus 
+							reiciendis maiores alias consequatur aut</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -159,90 +169,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="about-grids1">
 					<div class="col-md-6 about-grid">
 						<div class="col-xs-3 about-grid-left">
-							<div class="logo" aria-hidden="true" >
-								<img src="images/cm.jpg" height="70" width="70">
-							</div>
+							<span class="glyphicon glyphicon-plane effect-1" aria-hidden="true"></span>
 						</div>
 						<div class="col-xs-9 about-grid-right">
-							<h4>Programmers Point</h4>
-							<p>Indore's leading prog. coaching isntiute</p>
+							<h4>Eligendi cum soluta nobis</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente delectus 
+							reiciendis maiores alias consequatur aut</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="col-md-6 about-grid">
 						<div class="col-xs-3 about-grid-left">
-							<div class="logo" aria-hidden="true" >
-								<img src="images/ck.jpg" height="70" width="70">
-							</div>
+							<span class="glyphicon glyphicon-bed effect-1" aria-hidden="true"></span>
 						</div>
 						<div class="col-xs-9 about-grid-right">
-							<h4>Chakhna Cafe</h4>
-							<p>A nice cafe at old palasia</p>
+							<h4>Nobis cum soluta est</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente delectus 
+							reiciendis maiores alias consequatur aut</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div class="about-grids1">
-					<div class="col-md-6 about-grid">
-						<div class="col-xs-3 about-grid-left">
-							<div class="logo" aria-hidden="true" >
-								<img src="images/mm.jpg" height="70" width="70">
-							</div>
-						</div>
-						<div class="col-xs-9 about-grid-right">
-							<h4>Masala medely</h4>
-							<p>A great cafe to hangout at Bhawar kua</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 about-grid">
-						<div class="col-xs-3 about-grid-left">
-                             <div class="logo" aria-hidden="true" >
-								<img src="images/cm.jpg" height="70" width="70">
-							 </div>
-						</div>
-						<div class="col-xs-9 about-grid-right">
-							<h4>Code mantra</h4>
-							<p>An overall solution for every programming coachings and tutorials</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="about-grids1">
-					<div class="col-md-6 about-grid">
-						<div class="col-xs-3 about-grid-left">
-							<div class="logo" aria-hidden="true" >
-								<img src="images/cm.jpg" height="70" width="70">
-							</div>
-						</div>
-						<div class="col-xs-9 about-grid-right">
-							<h4>Programmers Point</h4>
-							<p>Indore's leading prog. coaching isntiute</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 about-grid">
-						<div class="col-xs-3 about-grid-left">
-							<div class="logo" aria-hidden="true" >
-								<img src="images/ck.jpg" height="70" width="70">
-							</div>
-						</div>
-						<div class="col-xs-9 about-grid-right">
-							<h4>Chakhna Cafe</h4>
-							<p>A nice cafe at old palasia</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-                    <div class="clearfix"> </div>
-                </div>    
-              </div>
 			</div>
 		</div>
-      </div>	
 	</div>
-
 	<!-- //about -->
 	<!-- gallery -->
 	<div class="gallery" id="events">
@@ -807,6 +758,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/responsiveslides.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -818,7 +771,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				easingType: 'linear' 
 				};
 			*/
-								
+			$(window).load(function() {
+    			$(".loader").fadeOut("slow");
+    			$('#main-logo').css({'animation-delay':'1s','display':'block'}).addClass('zoomIn');
+			});					
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
