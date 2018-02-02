@@ -211,7 +211,7 @@ body{
 }
 .w3l-heading h3{
     text-align: center;
-    font-family: "xirod";
+    font-family: "protos";
     color: #000000;
     font-size: 2em;
     font-weight: 700;
@@ -305,7 +305,6 @@ body{
 /*--//Effect 1--*/
 .about-grid-right h4 {
 	font-size: 1em;
-    font-family: "protos";
     margin: 0 0 .5em;
     color: #00ffff;
     text-transform: uppe-+rcase;
