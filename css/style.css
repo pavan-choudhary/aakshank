@@ -639,7 +639,7 @@ footer p a:hover{
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 20px;
+	bottom: 150px;
 	right: 2%;
 	overflow: hidden;
 	z-index: 999; 

@@ -4,15 +4,17 @@
 
 #cr,#naach{ display:inline-block; }
 #naach{margin-left:5%}
-#cr{ margin-left:15% }
+/*#cr{ margin-left:15% }*/
 #campus{color:#fff; padding:80px 20px 50px 20px; background-color:rgba(21,0, 45,0.6); }
-#campus h3{ font-family:'xirod';margin-left:6%}
-#campus h3 ,#campus p{padding-top:10px;margin-left:5%}
+#campus h3{ font-family:'xirod'}
+#campus h3 ,#campus p{padding-top:10px}
 #campus p{font-family: Roboto Condensed}
 #campus .inp{padding:10px;}
 #campus label{width:300px;font-weight:normal; display:block;}
 #campus input{background:transparent; border:none;border-bottom:1px solid grey; width:300px;
-		margin-bottom:20px;margin-right:20px;margin-top:5px;padding:5px; outline:none;	 }
+		margin-bottom:20px;margin-right:20px;margin-top:5px; outline:none;	 }
+#campus textarea{background:transparent; border:1px solid grey; width:300px;
+	margin-bottom:20px;margin-right:20px;margin-top:5px; outline:none;	 }
 #campus input[type='submit']{border:1px solid #d17600;width:190px;}
 
 @media(max-width:600px){
