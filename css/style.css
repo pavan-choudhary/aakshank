@@ -21,7 +21,7 @@ body{ z-index:1;
 }
 .underline{text-decoration:none; border-bottom:1px solid cyan;      }
 .banner{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../images/backdrop.JPG) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
