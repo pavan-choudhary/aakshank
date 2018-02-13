@@ -228,7 +228,7 @@ iframe{height:100%; width:50%;}
     height: 2px;
 }
 .introduction-info,.agileits-about-grids,.wthree-news-grids {
-    margin: 4em 0 0 0;
+    margin: 2em 0 0 0;
 }
 .introduction-info p{
 	color: #f2f2f2;
@@ -237,6 +237,7 @@ iframe{height:100%; width:50%;}
     line-height: 1.8em;
     width: 70%;
     text-align: center;
+    font-family:'Josefin Sans';
 }
 /*-- //introduction --*/
 /*-- sponsor (about) --*/
@@ -800,9 +801,6 @@ footer p a:hover{
 	}
 	.contact-form-right {
 		padding: 2em 2em 2em 2em;
-	}
-	.modal-header h4 {
-		font-size: 1.2em;
 	}
 	.contact-form-grid {
 		margin: 2em 0 0 0;
