@@ -6,7 +6,7 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2013 Daniel Eden
 */
-
+.slide{animation-delay:0.8s;}
 .animated {
   -webkit-animation-duration: 1s;
   -ms-animation-duration: 1s;

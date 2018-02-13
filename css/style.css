@@ -19,7 +19,7 @@ html, body{
 }
 body{ z-index:1;
 }
-iframe{height:100%; width:100%;}
+iframe{height:100%; width:50%;}
 .underline{text-decoration:none; border-bottom:1px solid cyan;      }
 .banner{
 	background: url(../images/backdrop.JPG) no-repeat 0px 0px;
@@ -345,99 +345,12 @@ iframe{height:100%; width:100%;}
     overflow: hidden;	
 }
 .team-info img{
-    width:100%; height:auto;
+    width:100%; height:25.5em;
     border: solid 2px #ffffff;
 }
-.star{transform: scale(1.1);}
+.agileits-team-grid{transform:scale(1.1);}
 /*-- //team --*/
-/*-- news --*/
-.wthree-news-grids{
-	width:80%;
-	margin:4em auto 0;
-}
-div#design {
-    min-height: 780px;
-}
-.wthree-news-grid{
-	margin:0 0 2em 0;
-}
-.wthree-news-grid:last-child{
-	margin:0;
-}
-.wthree-news-left{
-	float:left;
-	width:10%;
-}
-.wthree-news-left h4{
-    margin: 0;
-    color: #8e3cfe;
-    font-size: 2.5em;
-    font-weight: 600;
-}
-.wthree-news-left h4 span{
-	display:block;
-	font-size:.3em;
-	color:#999999;
-	font-weight:400;
-	margin:1em 0 0 0;
-}
-.date-text{
-	position:relative;
-	margin-bottom:1em;
-	float:left;
-	width:85%;
-}
-.date-text a{
-	font-size: 1em;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-	text-decoration:none;
-}
-.date-text a:hover{
-    color: #8e3cfe;
-}
-.date-text a:focus{
-	outline:none;
-}
-.date-text p{
-	color:#999999;
-	font-size:.9em;
-	line-height:1.8em;
-	margin:1em 0 0 0;
-}
-.date-text img{
-	padding-left:1em;
-}
-/*-- //news --*/
-/*-- modal --*/
-.agileits-w3layouts-info img{
-	width:100%;
-}
-.modal-header h4 {
-    text-align: center;
-    color: #000000;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 0;
-    letter-spacing: 2px;
-}
-.modal-header h5{
-    margin: 1em 0;
-    color: #999999;
-    font-size: 1em;
-    text-align: center;
-}
-.modal-body p{
-    margin: 1em 0 0 0;
-    font-size: .875em;
-    color: #999999;
-    line-height: 1.8em;
-}
-/*-- //modal --*/
+
 /*-- contact --*/
 .contact-form {
     background: #f2f2f2;
@@ -706,6 +619,7 @@ footer p a:hover{
 		width: 90%;
 	}
 	.agileits-team-grid {
+		transform:scale(1.1);
 		float: left;
 		width: 50%;
 		padding:0;
@@ -732,13 +646,14 @@ footer p a:hover{
 		background: none;
 	}
 	.navbar-collapse {
+		z-index:30;
 		position: absolute;
 		width: 100%;
 	}
 	.navbar-nav > li {
 	    float: none;
 		text-align: center;
-		background: #8e3cfe;
+		background: rgba(4,33,78,0.8);
 		display: block;
 	}
 	.navbar-nav > li > a {
@@ -785,7 +700,7 @@ footer p a:hover{
 	}
 }
 @media(max-width:568px){
-	.team-info img{height:14em;width:10em;margin:20px 10px 10px 0;}
+	.team-info img{    transform: scale(1.1);height:14em;width:10em;margin:20px 10px 10px 0;}
 	iframe{height:100%; width:100%;}
 	.star-title{top:10px;}
 	div#design {
