@@ -399,7 +399,6 @@ iframe{height:100%; width:50%;}
 }
 .address-info p {
     margin: 0;
-    color: #999999;
     font-size: .9em;
     line-height: 1.8em;
 }
@@ -918,4 +917,32 @@ footer p a:hover{
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   }
+}
+/* design and D */
+#tmember{text-align:center;width:100%;background-color:rgba(0,0,0,0.6);padding-top:40px;padding-bottom:40px}
+.clip-svg {
+		width: 0;
+		height: 0;
+	}
+	
+.dp {
+		width:6em;
+		height:6em;
+	}
+.se{width:9em;height:9em;}
+.polygon-each-img-wrap{display: inline-block;position: relative;}
+.polygon-clip-hexagon { 
+		-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		-webkit-clip-path: url("#polygon-clip-hexagon");
+		clip-path: url("#polygon-clip-hexagon");
+	}
+.t-info{ text-align:center;width:100%;
+	position:absolute;bottom:2em;font-size:14px;font-weight:bold; background-color:rgba(0,0,0,0.7);color:#fff;padding-left:5px;
+}
+.junior{font-size:12px;}
+
+@media(max-width:600px){
+.se{width:7em;height:7em;}
+.dp{width:5em;height:5em;}
 }
