@@ -19,7 +19,7 @@ html, body{
 }
 body{ z-index:1;
 }
-iframe{height:100%; width:50%;}
+iframe{height:400px; width:50%;}
 .underline{text-decoration:none; border-bottom:1px solid cyan;      }
 .banner{
 	background: url(../images/backdrop.JPG) no-repeat 0px 0px;
@@ -57,7 +57,7 @@ iframe{height:100%; width:50%;}
     margin:0; color:#fff;
 }
 .agileits-logo h1 a{
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
@@ -701,7 +701,7 @@ footer p a:hover{
 }
 @media(max-width:568px){
 	.team-info img{    transform: scale(1.1);height:14em;width:10em;margin:20px 10px 10px 0;}
-	iframe{height:100%; width:100%;}
+	iframe{height:300px; width:100%;}
 	.star-title{top:10px;}
 	div#design {
 		min-height: 1073px;
