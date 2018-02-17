@@ -700,7 +700,7 @@ footer p a:hover{
 	}
 }
 @media(max-width:980px){
-	.team-info img{    transform: scale(1.1);height:14em;width: 90%;
+	.team-info img{    transform: scale(1.1);height:14em;width: 90% !important;
         margin: 20px 10px 10px 14px;}
 	iframe{height:300px; width:100%;}
 	.star-title{top:10px;}
