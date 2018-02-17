@@ -322,5 +322,11 @@
     .celebText{
         font-size:1.3em !important;
     }
+    .front, .back{
+        background: /*#FFF; */ url(../images/irfanCelebMobile.jpg) no-repeat 0px 0px;
+    }
+    .card{
+        color: #fff !important;
+    }
 }
 
