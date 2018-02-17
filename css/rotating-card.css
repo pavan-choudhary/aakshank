@@ -40,7 +40,7 @@
      -o-transform-style: preserve-3d;
         transform-style: preserve-3d;
 	position: relative;
-     width: 50%;
+     width: 100%;
 }
 
 /* hide back of pane during swap */
@@ -86,8 +86,8 @@
     color: #444444;
 }
 .card-container, .front, .back {
-	width: 100%;
-	height: 420px;
+	/*width: 100%;*/
+	height: 450px;
 	border-radius: 4px;
 }
 .card .cover{
@@ -99,16 +99,16 @@
     width: 100%;
 }
 .card .user{
-    border-radius: 50%;
+
     display: block;
-    height: 120px;
+    height: 150px;
     margin: -90px auto 0;
     overflow: hidden;
-    width: 120px;
+    width: 150px;
 }
 .card .user img{
     background: none repeat scroll 0 0 #FFFFFF;
-    border: 4px solid #FFFFFF;
+
     width: 100%;
 }
 
@@ -315,4 +315,12 @@
         z-index: 5;
         visibility: visible;
     }
+
 }
+
+@media only screen and (max-width: 500px) {
+    .celebText{
+        font-size:1.3em !important;
+    }
+}
+
