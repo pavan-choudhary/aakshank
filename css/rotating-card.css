@@ -328,5 +328,8 @@
     .card{
         color: #fff !important;
     }
+    .back ul{
+        font-size:16px !important;
+    }
 }
 
