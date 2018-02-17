@@ -710,6 +710,18 @@ footer p a:hover{
 	.styled-input {
 		width: 47%;
 	}
+    #cr{
+        width: 100% !important;
+    }
+    #cr input{
+        width:100% !important;
+    }
+    #naach{
+        width: 100% !important;
+    }
+    #naach input{
+        width: 100% !important;
+    }
 }
 @media(max-width:480px){
 	.w3ls-text img{
