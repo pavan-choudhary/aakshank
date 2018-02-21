@@ -59,8 +59,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- //animation --> 
 <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
+<!-- Start of Async Drift Code -->
+<script>
+	!function() {
+		var t;
+		if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+				t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+				t.factory = function(e) {
+					return function() {
+						var n;
+						return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+					};
+				}, t.methods.forEach(function(e) {
+			t[e] = t.factory(e);
+		}), t.load = function(t) {
+			var e, n, o, i;
+			e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+					o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+					n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+		});
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('kfr7khertd3t');
+</script>
+<!-- End of Async Drift Code -->
+<script>
+	drift.on('load',function(api, payload) {
+		// interact with the api here
+		jQuery('.widget-container').css('right','10px !important');
+	})
+</script>
 </head>
 <body>
 	<div style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:100;" class="loader"><br><br>
@@ -150,7 +180,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!-- star -->
 	<div class="w3l-heading">
-				<h3>Star of 2018</h3>
+				<h3>Stars of 2018</h3>
 				<div class="w3ls-border"> </div>
 				<br>
 	</div>
@@ -158,7 +188,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-3"></div>
 		<div class="card-container col-md-6">
 		<center>
-         <div class="card">
+         <div class="card irfan">
              <div class="front">
 
                  <!--<div class="user">-->
@@ -173,7 +203,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						 </div>
 
 
-                         <p class="text-center celebText" style="padding-top: 80px; color: #05112f;font-family: 'Raleway';font-size:2em">24<sup>th</sup> February , 2018  <br><br>LIVE AT AAKSHANK <br><br> IET- DAVV </p>
+                         <p class="text-center celebText" style="padding-top: 50px; color: #05112f;font-family: 'Raleway';font-size:2em">LIVE CONCERT <br><br>24<sup>th</sup> February , 2018  <br><br>6 P.M Onwards<br><br>LIVE AT AAKSHANK <br><br> IET- DAVV </p>
                      </div>
                  </div>
              </div> <!-- end front panel -->
@@ -206,6 +236,59 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
      </div> <!-- end card-container -->
 		<div class="col-md-3"></div>
 		</div>
+	<!--progressiveBrothers-->
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="card-container col-md-6">
+			<center>
+				<div class="card progressiveBrothers">
+					<div class="front">
+
+						<!--<div class="user">-->
+						<!--<img class="se polygon-clip-hexagon" src="images/Irfan2.jpeg" />-->
+						<!--</div>-->
+						<div class="content">
+							<div class="main">
+								<div class="w3l-heading">
+									<h3 style="color: black">Progressive Brothers</h3>
+
+									<br>
+								</div>
+
+
+								<p class="text-center celebText" style="padding-top: 50px; color: #05112f;font-family: 'Raleway';font-size:2em">EDM NIGHT <br><br>25<sup>th</sup> February , 2018  <br><br>6 P.M Onwards<br><br>LIVE AT AAKSHANK <br><br> IET- DAVV </p>
+							</div>
+						</div>
+					</div> <!-- end front panel -->
+					<div class="back">
+						<div class="header">
+							<div class="w3l-heading">
+								<h3 style="color: black">Progressive Brothers Music</h3>
+
+								<br>
+							</div>
+
+						</div>
+						<div class="content">
+							<div class="main">
+								<div class="stats-container">
+									<ul style="font-size: 20px; font-family:'Arvo', serif; color: #05112f;">
+										<li> <b>Magik </b> </li> <br>
+										<li> <b> Hijack </b></li> <br>
+										<li> <b> Walking on the Beach </b></li> <br>
+										<li> <b> Locura Interna </b> </li> <br>
+										<li> <b> One Year </b></li> <br>
+										<li> <a href="https://www.beatport.com/artist/progressive-brothers/230238" target="_blank" style="color:#000">More Songs..</a></li><br>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div> <!-- end back panel -->
+				</div> <!-- end card -->
+			</center>
+		</div> <!-- end card-container -->
+		<div class="col-md-3"></div>
+	</div>
 	<!-- //star -->
 
 <!-- team -->
@@ -383,7 +466,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- /aftermovie -->
 
 <!--Forms-->
-	<section id="campus" class="row">
+	<section id="campus" class="container-fluid">
 		<div class="col-md-6" style="text-align: center">
 			<div id="ca">
 				<h3>
@@ -474,6 +557,74 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div><!-- /.pattern -->
 	</section>
 		<!-- Form Section End -->
+
+<!--Sponsors-->
+<style type="text/css">
+	#sponsor{ }
+	.sp .col-xs-4 figcaption ,.col-xs-7 figcaption
+	{
+		font-family: 'Raleway';
+		color: #fff;
+		font-size:0.8em;
+		text-align: center;
+		margin-top: 2px;padding:3px;
+	}
+	.sp .col-xs-4{margin-bottom:20px;}
+	.sponsor-img{max-height:5em;}
+</style>
+<section id="sponsor">
+<div style="background-color:rgba(0,0,0,0.67);padding-top:50px;padding-bottom:50px;" class="container-fluid">
+	<div class="w3l-heading">
+			<h3 style="font-size:1.3em;"> Sponsors </h3>
+			<br>
+	</div>
+	<br><br>
+	<div class="container">
+	    <div class="row sp">
+	    	<center>
+	        <div class="col-xs-4 col-md-2">
+	        	<figure>
+	  				<img src="images/sponsor/Chakhna.jpg" class="sponsor-img">
+	  				<figcaption> CHAKHNA </figcaption>
+				</figure>
+	        </div>
+	        <div class="col-xs-4 col-md-2">
+	        	<figure>
+	  				<img src="images/sponsor/Masala - Copy.jpg" class="sponsor-img">
+	  				<figcaption> MASALA MEDLEY </figcaption>
+				</figure>
+	        </div>
+	        <div class="col-xs-4 col-md-2">
+	        	<figure>
+	  				<img src="images/sponsor/Amtoz.jpg" class="sponsor-img">
+	  				<figcaption> AMITOZ </figcaption>
+				</figure>
+	        </div>
+	        <div class="col-xs-7 col-md-2">
+	        	<figure>
+	  				<img src="images/sponsor/ADMIVO.png" class="sponsor-img" style="padding-top:1em ">
+	  				<figcaption></figcaption>
+				</figure>
+	        </div>
+	        <div class="col-xs-4 col-md-2">
+	        	<figure>
+	  				<img src="images/sponsor/ims.png" class="sponsor-img">
+	  				<figcaption></figcaption>
+				</figure>
+	        </div>
+	        <div class="col-xs-7 col-md-2 col-xs-offset-3 col-md-offset-0">
+	        	<figure>
+	  				<img src="images/sponsor/Fierce.jpg" class="sponsor-img">
+	  				<figcaption> FIERCE </figcaption>
+				</figure>
+	        </div>
+
+	        </center>
+	    </div>
+	</div>
+</div>
+<!--Sponsors End-->
+</section>
 
 <!--team-->
 <div id="tmember">
@@ -583,30 +734,7 @@ ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
 		
-	<!-- Start of Async Drift Code -->
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('kfr7khertd3t');
-</script>
-<!-- End of Async Drift Code -->
+
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {

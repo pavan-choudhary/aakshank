@@ -13,6 +13,7 @@ body a{
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
+
 html, body{
     font-size: 100%;    
 	font-family: 'Roboto Condensed', sans-serif;
@@ -232,7 +233,7 @@ iframe{height:400px; width:50%;}
 }
 .introduction-info p{
 	color: #f2f2f2;
-    font-size: .9em;
+    font-size: 1.3em;
     margin: 0 auto;
     line-height: 1.8em;
     width: 70%;
@@ -721,6 +722,12 @@ footer p a:hover{
     }
     #naach input{
         width: 100% !important;
+    }
+    #toTop{
+        display: none !important;
+    }
+    #drift-widget{
+        right:40px !important;
     }
 }
 @media(max-width:480px){

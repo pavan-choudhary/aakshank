@@ -53,9 +53,18 @@
 	top: 0;
 	left: 0;
     width: 100% !important;
-	background: /*#FFF; */ url(../images/Irfan_bg_final1.jpg) no-repeat 0px 0px;
+
     background-size: cover;z-index:10;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+.irfan .front,.irfan .back{
+    background: /*#FFF; */ url(../images/Irfan_bg_final1.jpg) no-repeat 0px 0px;
+}
+
+.progressiveBrothers .front,.progressiveBrothers .back{
+    background: /*#FFF; */ url(../images/progressiveBrothers.jpg) no-repeat 0px 0px;
+    background-size:cover;z-index:10;
 }
 
 /* front pane, placed above back */
@@ -322,7 +331,7 @@
     .celebText{
         font-size:1.3em !important;
     }
-    .front, .back{
+    .irfan .front, .irfan .back{
         background: /*#FFF; */ url(../images/irfanCelebMobile.jpg) no-repeat 0px 0px;
     }
     .card{
